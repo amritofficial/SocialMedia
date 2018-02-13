@@ -1,0 +1,95 @@
+.main {
+    margin-top: 20px;
+    padding:10px;
+}
+
+
+/** Upper-Container which contains all the walllpaper and profile image with navigation bar **/
+.upper-container {
+}
+
+.upper-container .wallpaper-container {
+    padding: -5px;
+}
+
+.upper-container .wallpaper-container .wallpaper {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.upper-container .avatar-container {
+    margin-left: 30px;
+    /* padding: 0px 5px 0px 30px; */
+    position: absolute;
+}
+
+.upper-container .avatar-container .avatar {
+    margin-top: -180px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(248, 248, 248);
+}
+
+
+/** Navigation-Container that contains all the buttons **/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    /* background-color: #333; */
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(115, 187, 255);
+    color: white;
+}
+
+.active {
+    background-color: rgb(45, 241, 255);
+}
+
+
+/** Content-container which will contain all other components **/
+
+.content-container {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-container .row {
+    padding: 5px;
+}
+
+.user-info-container {
+    /* border: 2px solid grey; */
+    background-color: white;
+    padding: 10px;
+}
+
+.user-content-container {
+    /* border: 2px solid grey; */
+    background-color: rgb(170, 170, 170);
+}
+
+.user-info {
+    padding: 5px;
+    color: rgb(112, 112, 112);
+    font-family: 'Times New Roman', Times, serif;
+}
