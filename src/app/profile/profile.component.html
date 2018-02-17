@@ -10,27 +10,32 @@
 
     <div class="navigation-container">
         <ul>
-          <li><a class="active" href="#home">Skills</a></li>
-          <li><a href="#news">Edcucation</a></li>
-          <li><a href="#contact">Work</a></li>
-          <li><a href="#about">Timeline</a></li>
-          <li><a href="#about">Post</a></li>
+          <li><a href="#home">Skills</a></li>
+          <li><a routerLink="">Edcucation</a></li>
+          <li><a routerLink="/work">Work</a></li>
+          <li><a routerLink="/timeline" href="#about">Timeline</a></li>
         </ul>
     </div>  
   </div> <!-- /Upper-container -->
 
   <div class="content-container">
     <div class="row">
-      <div class="user-info-container col-lg-4">
+      <div class="user-info-container col-lg-4 col-lg-offset-2">
         <div class="user-info">
           <h4>Intro.</h4>
           <hr>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
         </div>
       </div>
-      <div class="user-content-container col-lg-8 col-xs-12">
-        <h2>Content Here</h2>
-      </div>
+      <div class="user-content-container col-lg-8 col-lg-offset-2 col-xs-12">
+        <div class="user-content">
+          <!-- <router-outlet name="aux"></router-outlet> -->
+        </div>
+        <br>
+        <!-- <div class="user-post">
+          <app-nav-timeline-post></app-nav-timeline-post>
+        </div> -->
+      </div> <!-- /user-content-container -->
     </div>
   </div>
 

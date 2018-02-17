@@ -1,0 +1,55 @@
+/** Post Component **/
+
+/*-- Global Selectors --*/
+a{
+    color:#47649F;
+}
+
+.post-container {
+    background-color: white;
+    margin: -15px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+body{
+    font-family:'helvetica';    
+}
+
+/*-- Bootstrap Override Style --*/
+
+
+/*-- Content Style --*/
+.post-footer-option li{
+    float:left;
+    margin-right:50px;
+    padding-bottom:15px;
+}
+
+.post-footer-option li a{
+    color:#AFB4BD;
+    font-weight:500;
+    font-size:0.8rem;
+}
+
+.photo-profile{
+    border:1px solid #DDD;    
+}
+
+.anchor-username h4{
+    font-weight:bold;
+    font-size: 18px;    
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:14px;
+}
+
+.post-footer-comment-wrapper{
+    background-color:#F6F7F8;
+}
+
+.media-body {
+    padding-top: -10px;
+}

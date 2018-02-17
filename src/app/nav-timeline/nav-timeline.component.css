@@ -1,0 +1,27 @@
+/** user-content-timeline hold all the POST and FEED components **/
+.user-content-timeline {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+
+.user-content-timeline .heading {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(112, 112, 112);
+}
+
+.user-content-timeline form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-content-timeline form button {
+    float: right;
+}
+

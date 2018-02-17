@@ -79,17 +79,57 @@ li a:hover:not(.active) {
 
 .user-info-container {
     /* border: 2px solid grey; */
-    background-color: white;
-    padding: 10px;
-}
-
-.user-content-container {
-    /* border: 2px solid grey; */
-    background-color: rgb(170, 170, 170);
+    /* background-color: white; */
+    /* padding: 10px; */
 }
 
 .user-info {
-    padding: 5px;
+    padding: 10px;
     color: rgb(112, 112, 112);
+    background-color:white;
+    /** Removed the global padding from the container and it margin-left is gonna provide some extra width to align with the timeline **/
+    margin-left: -15px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/** This is the user-content area which contains all the navigation outputs **/
+.user-content-container {
+    /* border: 2px solid grey; */ 
+    /* background-color: rgb(170, 170, 170); */
+    /* padding-bottom: -50px; */
+}
+
+.user-content {
+    /* background-color: white; */
+    
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;  */
+
+    /* padding-bottom: 50px; */
+    /* margin-top: -20px; */
+}
+
+/** This is the container to hold the User posts**/
+.user-content-container .user-post {
+    margin-bottom: 25px;
+}
+
+.user-content .heading {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(112, 112, 112);
+}
+
+.user-content form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-content form .button-container button {
+    float: right;
+}
+
+
+
+
