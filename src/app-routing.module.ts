@@ -10,7 +10,12 @@ import { NavWorkComponent } from "./app/nav-work/nav-work.component";
 // ];
 
 export const appRoutes: Routes = [
-    {path: '', redirectTo: '/profile', pathMatch: 'full'},
-    {path: 'profile', component:ProfileComponent, outlet:'main'}
+    {path: '', redirectTo: '/profile/(auxoutlet:timeline)', pathMatch: 'full'},
+    {path: 'profile', component:ProfileComponent,
+        children: [
+            {path: 'timeline', component: NavTimelineComponent, outlet: 'auxoutlet'},
+            {path: 'work', component: NavWorkComponent, outlet: 'auxoutlet'}
+        ]
+    }
 ];
 

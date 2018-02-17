@@ -92,6 +92,15 @@ li a:hover:not(.active) {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.user-basic-qualifications-container .user-basic-qualifications {
+    padding: 10px;
+    color: rgb(112, 112, 112);
+    background-color:white;
+    /** Removed the global padding from the container and it margin-left is gonna provide some extra width to align with the timeline **/
+    margin-left: -15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /** This is the user-content area which contains all the navigation outputs **/
 .user-content-container {
     /* border: 2px solid grey; */ 

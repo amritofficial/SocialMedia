@@ -12,8 +12,8 @@
         <ul>
           <li><a href="#home">Skills</a></li>
           <li><a routerLink="">Edcucation</a></li>
-          <li><a routerLink="/work">Work</a></li>
-          <li><a routerLink="/timeline" href="#about">Timeline</a></li>
+          <li><a [routerLink]="[{ outlets : {'auxoutlet':['work']}}]">Work</a></li>
+          <li><a [routerLink]="[{outlets: {'auxoutlet':['timeline']}}]" >Timeline</a></li>
         </ul>
     </div>  
   </div> <!-- /Upper-container -->
@@ -26,10 +26,20 @@
           <hr>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
         </div>
-      </div>
+        <br>
+        <div class="user-basic-qualifications-container">
+          <div class="user-basic-qualifications">
+            <h5>Overview.</h5>
+            <hr>
+            <p><strong>Works at: </strong> Daddy's little princess doesn't need to work ;)</p>
+            <p><strong>Studied at: </strong></p>
+          </div>
+        </div>
+      </div> <!-- /user-info-container -->
+      <br>
       <div class="user-content-container col-lg-8 col-lg-offset-2 col-xs-12">
         <div class="user-content">
-          <!-- <router-outlet name="aux"></router-outlet> -->
+          <router-outlet name="auxoutlet"></router-outlet>
         </div>
         <br>
         <!-- <div class="user-post">
