@@ -1,0 +1,22 @@
+.user-work-experience {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+    color: rgb(112, 112, 112);
+}
+
+.user-work-experience .heading {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(112, 112, 112);
+}
+
+.company {
+    font-size: 14px;
+    margin-top: -18px;
+}
